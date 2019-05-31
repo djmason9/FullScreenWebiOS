@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71EFA31222A1C24C00659AA3 /* FullScreenWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EFA31222A1C24C00659AA3 /* Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EFA31522A1C24C00659AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71EFA31722A1C24C00659AA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71EFA31A22A1C24C00659AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		71EFA31322A1C24C00659AA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71EFA31222A1C24C00659AA3 /* FullScreenWeb.app */,
+				71EFA31222A1C24C00659AA3 /* Kiosk.app */,
 				71EFA32622A1C24C00659AA3 /* FullScreenWebTests.xctest */,
 				71EFA33122A1C24C00659AA3 /* FullScreenWebUITests.xctest */,
 			);
@@ -142,7 +142,7 @@
 			);
 			name = FullScreenWeb;
 			productName = FullScreenWeb;
-			productReference = 71EFA31222A1C24C00659AA3 /* FullScreenWeb.app */;
+			productReference = 71EFA31222A1C24C00659AA3 /* Kiosk.app */;
 			productType = "com.apple.product-type.application";
 		};
 		71EFA32522A1C24C00659AA3 /* FullScreenWebTests */ = {
@@ -440,9 +440,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitcows.com.FullScreenWeb;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Kiosk;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -458,9 +458,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitcows.com.FullScreenWeb;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Kiosk;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
