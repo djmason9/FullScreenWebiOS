@@ -17,7 +17,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     override func loadView() {
         
         webView = WKWebView()
-//        webView?.isUserInteractionEnabled = false;
+//        webView?.isUserInteractionEnabled = true;
         view = webView
         
          self.webView?.scrollView.delegate = self
@@ -29,7 +29,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let request = URLRequest(url: URL(string: "http://10.129.178.116/alexa-lab-kiosks/admin.htm")!)
+        let request = URLRequest(url: URL(string: "http://10.129.178.116/alexa-lab-kiosks/admin.htm?clear=c2")!)
+//        let request = URLRequest(url: URL(string: "http://10.129.178.70/WEB/kiosk/admin.htm?z=2")!)
         webView?.load(request)
 //
     }
@@ -38,7 +39,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         //secret reload
         webView?.evaluateJavaScript("window.location.reload(true)", completionHandler: nil);
         
-        scrollView.pinchGestureRecognizer?.isEnabled = false
+        
+//        scrollView.pinchGestureRecognizer?.isEnabled = false
     }
 }
 
